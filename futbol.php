@@ -20,7 +20,7 @@ $haberler = $sql->fetchAll(PDO::FETCH_ASSOC);
     <div>
       <button class="btn" onclick="location.href='index.php'">ANA SAYFA</button>
       <button class="btn" onclick="location.href='ekonami.php'">EKONOMİ</button>
-      <button class="btn" onclick="location.href='spor.php'">SPOR</button>
+      <button class="btn" onclick="location.href='futbol.php'">SPOR</button>
       <button class="btn" onclick="location.href='siyaset.php'">SİYASET</button>
        <button class="btn" onclick="location.href='teknoloji.php'">TEKNOLOJİ</button>
     </div>
@@ -53,3 +53,4 @@ $haberler = $sql->fetchAll(PDO::FETCH_ASSOC);
   </div>
 </body>
 </html>
+
